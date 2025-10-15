@@ -1,1 +1,1 @@
-export default function Card({title,children}:{title?:string;children:React.ReactNode}){return(<section className='card mb-4'>{title&&<h2 className='text-lg font-semibold mb-3'>{title}</h2>}{children}</section>)}
+export default function Card({title,children}:{title?:string;children:React.ReactNode}){return(<section className='bg-white p-4 rounded-2xl shadow-sm border mb-4'>{title&&<h2 className='text-lg font-semibold mb-3'>{title}</h2>}{children}</section>)}

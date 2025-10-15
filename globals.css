@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-blue: #2563EB;
+  --brand-yellow: #F59E0B;
+}
+body { @apply bg-gray-50 text-gray-800; }
+.btn { @apply px-4 py-2 rounded-xl font-semibold; }
+.btn-primary { @apply text-white; background: var(--brand-blue); }
+.btn-accent { @apply text-white; background: var(--brand-yellow); }
+.card { @apply bg-white p-4 rounded-2xl shadow-sm border; }
